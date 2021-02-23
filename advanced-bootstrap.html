@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Dwight Schrute's Advanced Search</title>
+        <link rel="stylesheet" href="style-advanced.css">
+        <link rel="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!-- header -->
+    <body>
+      <header>
+        <nav>
+          <ul id="nav_bar">
+            <li class="nav_links"><a href="index.html">Google Search</a></li>
+            <li class="nav_links"><a href="images.html">Image Search</a></li>
+            <li class="sign_in"><a id="a" href="#">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- advanced search bootstrap -->
+      <div id="adv">
+        <h2>Advanced Search</h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6" id="fu">
+            <h3>Find pages with...</h3>
+          </div>
+          <div class="col-6">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-6" id="bar">
+            <h4>all these words:</h4>
+          </div>
+          <div class="col-6">
+            <form action="https://google.com/search">
+              <input id="adv-search-bar" type="text" name="as_q">
+          </div>
+        </div>
+      </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6" id="bar">
+              <h4>this exact word or phrase:</h4>
+            </div>
+            <div class="col-6">
+              <form action="https://google.com/search">
+                <input id="adv-search-bar" type="text" name="as_epq">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6" id="bar">
+              <h4>any of these words:</h4>
+            </div>
+            <div class="col-6">
+              <form action="https://google.com/search">
+                <input id="adv-search-bar" type="text" name="as_oq">
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6" id="bar">
+              <h4>none of these words:</h4>
+            </div>
+            <div class="col-6">
+              <form action="https://google.com/search">
+                <input id="adv-search-bar" type="text" name="as_eq">
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <input id="advanced" type="submit" value="Advanced Search">
+        </div>
+
+      <!-- footer -->
+      <footer>
+        <ul class="footer_left">
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="footer_right">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </footer>
+    </body>
+</html>

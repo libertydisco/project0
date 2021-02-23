@@ -1,0 +1,176 @@
+/* basic styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 40%;
+}
+
+.nav_links {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar */
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#nav_bar #sign_in {
+  background: #4887ef;
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+#nav_links {
+  color: #4887ef;
+}
+
+#a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #4285F4;
+}
+
+li.nav_links a:hover {
+  text-decoration: underline;
+}
+
+.sign_in:hover {
+  box-shadow: 1px 1px 5px #999;
+}
+
+.sign_in {
+  background-color: #4887ef;
+  padding-top: 10px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+/* google area */
+.google {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#dwight {
+    border-radius: 60px;
+    min-width: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dwight {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  max-width: 125px;
+}
+
+.form {
+  text-align: center;
+  display: block;
+  margin: 5px auto;
+  padding-top: 2px;
+  clear: both;
+}
+
+#search_bar {
+  width: 300px;
+  text-decoration-color: black;
+  text-align: left;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.form #form_search {
+  padding-right: 15px;
+  margin: 5px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 120px;
+  border-radius: 15px;
+}
+
+#adv {
+  clear: both;
+}
+
+#adv > h2 {
+  margin-top: 5px;
+  margin-left: 30px;
+  color: #DB4437;
+}
+
+text {
+  float: left;
+}
+
+/* footer */
+footer  {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer_right {
+  float: right;
+}
+
+.footer_left {
+  float: left;
+}
